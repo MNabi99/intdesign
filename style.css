@@ -1,0 +1,304 @@
+/* this is from google fonts a Mulish with 400, 700, and 900 have been iported */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,700;0,900;1,400&display=swap');
+:root{
+  box-sizing: border-box;
+  --blue-color: #5c84ec;
+  --pink-color: #f03c6d;
+  --paragraph-color: #707070;
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+body{
+  height:200vh;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(var(--blue-color),var(--pink-color));
+  border-radius: 20px;
+}
+/* the below sudo effect will target above border-box */
+*,::before, ::after{
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Mulish', sans-serif;
+  background: #f9fbff;
+}
+h1{
+  font-size: 2.8rm;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+h3{
+  font-size:1.75;
+  font-weight:700;
+}
+p{
+  font-weight:400;
+  font-size: 1rem;
+  color:var(--paragraph-color);
+}
+a{
+  font-size: 1rem;
+  color: #fff;
+}
+.mt-100{
+  margin-top:100px;
+}
+.mt-70{
+  margin-top: 70px;
+}
+/* Navigation */
+
+.navbar-nav .nav-item{
+  margin:0 6px;
+}
+nav.stickyadd .active{
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.4);
+}
+
+/* also the stickyadd class will be target through javaScript for scroling perposes */
+nav.stickyadd{
+  background-color: rgba(255, 255, 255, 0.4);
+  transition: all 0.5s;
+}
+nav.stickyadd .nav-item .nav-link{
+  color: rgba(0, 0, 0, 0.7);
+}
+nav.stickyadd .navbar-brand{
+  color: rgba(0, 0, 0, 0.7);
+}
+nav.stick{
+  transition: all 0.5s;
+}
+
+/* Hero insin section */
+#particles-js {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  position: absolute;
+}
+.hero{
+  height: 150vh;
+  width: 100%;
+  /* when putt this below bofor url and , it will change the pic color- linear-gradient(rgba(92, 132, 236, 0.8),rgba(92, 132, 236, 0.8)),*/
+  background-image:  url(images/int6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.hero-content{
+  color: pink;
+}
+#text{
+  margin: auto;
+}
+/* about section */
+.about-class{
+  margin-top: -200px;
+  background: linear-gradient(135deg,
+  var(--pink-color),
+  var(--blue-color),
+  var(--pink-color),
+  var(--blue-color),
+  var(--pink-color),
+  var(--blue-color),
+  /* var(--pink-color),
+  var(--blue-color), */
+  var(--pink-color));
+}
+img{
+  margin-top: 90px;
+  height: 150vh;
+  width: 100%;
+  padding: 5px;
+}
+.wrap {
+  margin-top: 15px;
+  padding: 30px;
+}
+.wrap p,
+.wrap h2{
+  color: #fff;
+}
+wrap h3{
+  margin-bottom: 20px;
+}
+/* Servise section */
+.service-show{
+  text-align: center;
+}
+.service-class .card{
+  padding: 25px;
+  margin-bottom: 30px;
+}
+/*  Project and service Section stly is combined */
+ .service-class i{
+  font-size:  50px;
+  background: linear-gradient(var(--pink-color), black);
+  -webkit-background-clip : text;
+  background-clip: text;
+  -webkit-text-fill-color:transparent;
+
+}
+/* section Team */
+ .bg-white{
+  /* background: #fff; */
+  /* margin-top: -200px; */
+  background: linear-gradient(135deg,
+  var(--pink-color),
+  var(--blue-color),
+  var(--pink-color),
+  var(--blue-color),
+  var(--pink-color),
+  var(--blue-color),
+  /* var(--pink-color),
+  var(--blue-color), */
+  var(--pink-color));
+}
+
+    .service-class {
+  /* font-size: 50px;
+  background: linear-gradient(var(--pink-color), blcak);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color:transparent; */
+  margin: 20px 0 5px 20px;
+}
+/* contact section */
+.contact-class .bg-contact{
+  height: 30vh;
+  width: 100%;
+  /* color: #fff; */
+  background: linear-gradient(135deg,
+  var(--pink-color),
+  var(--blue-color),
+  var(--pink-color),
+  var(--blue-color),
+  var(--pink-color),
+  var(--pink-color));
+
+ /* (rgba(74,118,237,0.8),rgba(74,118,237,0.8)); !important; */
+}
+.contact-class p{
+  color: #fff;
+}
+  .contact-class i{
+  font-size:  30px;
+  background: linear-gradient(var(--pink-color), #fff);
+  -webkit-background-clip : text;
+  background-clip: text;
+  -webkit-text-fill-color:transparent;
+
+}
+
+/* footer Section */
+.bossfooter{
+    overflow-x: hidden;
+    color: #fff
+}
+
+p {
+    font-size: 14px
+}
+
+.container-fluid {
+    background-color: #4527A0
+    /* background: linear-gradient(135deg, */
+    /* var(--pink-color), */
+    /* var(--blue-color), */
+    /* var(--pink-color), */
+    /* var(--blue-color), */
+    /* var(--pink-color), */
+    /* var(--pink-color)); */
+}
+
+.top-part {
+    background-color: #512DA8
+    /* background: linear-gradient(135deg, */
+    /* var(--pink-color), */
+    /* var(--blue-color), */
+    /* var(--pink-color), */
+    /* var(--blue-color), */
+    /* var(--pink-color), */
+    /* var(--pink-color)
+    var(--blue-color)); */
+}
+
+.center-content {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.btn-pink {
+    border-radius: 0;
+    background-color: #FF4081;
+    color: #fff !important;
+    letter-spacing: 2px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px
+}
+
+.btn-pink:hover {
+    background-color: #F50057
+}
+
+.line {
+    border-top: 1px solid #7B1FA2;
+    width: 90% !important
+}
+
+.fa-mobile {
+    font-size: 20px
+}
+
+#contact {
+    font-size: 15px
+}
+
+.grey-text {
+    color: lightgrey
+}
+/* Media query */
+@media (max-width:575.98px) {
+  h1{
+    font-size: 1.5rem;
+    font-weight: 900px;
+  }
+  h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .about-class{
+    margin-top: 0;
+  }
+  .service-class{
+    text-align: center;
+  }
+  .service-content{
+    margin-bottom: 50px;
+  }
+  .team-class{
+    text-align: center;
+    padding: 0px;
+  }
+  .team.class h2{
+    text-align: center;
+  }
+  .team-class .team-content{
+    margin-top: 50px;
+  }
+  #project-id .contact-class{
+    text-align: center;
+  }
+  #project-id{
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .contact-class form{
+    padding: 40px;
+    margin-top: -130px;
+  }
+}

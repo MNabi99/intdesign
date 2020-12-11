@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel=“ stylesheet” href=“ DivisionImage.css”>
+  <title>Document</title>
+</head>
+<!-- this last coding for animation -->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="200">
+  <header>
+    <!-- the stickyadd class has benn targeted through javaScript in the top <nav>
+      after scrolling
+      and the stick class is for bloking pics
+    </nav> -->
+    <nav class="navbar stickyadd navbar-expand-md ml-auto fixed-top stick">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <h1>Design</h1>
+        </a>
+        <!-- below data-target id navbarbtn should be equal to blow id nav barbtn in div to collapse after button click -->
+        <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarbtn">
+          <span class="hamberger"><i class="fa fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarbtn"></div>
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about-id" class="nav-link active">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#service-id" class="nav-link active">Service</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#project-id" class="nav-link active">Project</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#contact-id" class="nav-link active">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- this one div is for particles.js file  particles.js-->
+    <div id="particles-js"></div>
+    <section id="home" class="hero">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col hero-content text-center d-flex flex-column
+        justify-content-center align-itmes-center">
+            <h1 data-aos="fade-up" data-aos-duration="1000">Style & Design</h1>
+            <h2 data-aos="fade-up" data-aos-duration="1000">Dream Home</h2>
+          </div>
+        </div>
+      </div>
+      <!-- </main> -->
+
+    </section>
+    <!-- About-Section Second Section for two column  -->
+    <div class="aboutCode"></div>
+    <!-- closed About-Section Second Section for two column  -->
+    <!-- About-section Closed -->
+
+    <!-- Service Section Open -->
+    <div class="serviceCode"></div>
+    <!-- Cölosed Service Section  -->
+
+
+    <!-- Open Section Team-->
+    <section class="team-class mt-70 bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
+            <div class="box">
+              <img src="images/bro.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex flex-column justify-content-center team-content" data-aos="fade-up"
+            data-aos-duration="1000">
+            <div class="wrap">
+              <h2 class="mb-4">Our Team</h2>
+              <p>We love Humans being as well as it includes all the living creatures
+                being living and breathing in this universe. All these living in
+                the beauty of the Universe. </p>
+              <p>So here on this short and unsafe life with foolproof guard and in spite
+                of Modern and sophisticated technology we still unable to know about
+                the next moment of our life.</p>
+
+              <p>So this means that This universe is only have been created for us to
+                Love each other, to respect everyone, to recognize what is your rights
+                for your happy and safe life, and what is my obligation to all livings
+                creatures in this universe.</p>
+
+              <p>I am also a great supporter of those who loves all living beings, especially
+                Baby dogs. So I would like to say that this innocent creature must
+                stay with me on my pages. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- closed Team Section -->
+    <div class="projectCode"></div>
+
+    <!--Start  Contect Section -->
+
+    <div class="contactForm"></div>
+  </main>
+  <!-- Closed Section: Contact v.2-->
+
+  <!-- footer -->
+  <div class="container-fluid mx-auto bossfooter"> </div>
+  <!-- footer -->
+
+
+  <script src="jquery.js"></script>
+  <script src="bootstrap.min.js" </script>
+  // <script src="myscripts.js">
+  </script>
+  <script src="particles.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
